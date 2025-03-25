@@ -82,6 +82,95 @@ Validated simulation framework for real-world deployment & continuous optimizati
 This plan ensures that the network planning application is structured, achievable, and effective within the given timeline.
 
 
+### *** NVIDIA provides several open-source frameworks and toolkits for AI-driven 5G/6G RAN development. Below is a list of key open-source projects and libraries related to NVIDIA’s work in this domain:***
+1. ### ** Sionna (NVIDIA) **
+Purpose: A deep learning library for 5G/6G physical layer research.
+Features:
+Supports link-level simulations with AI/ML integration.
+Implements 3GPP 5G NR and custom 6G models.
+GPU-accelerated with TensorFlow support.
+GitHub: github.com/nvlabs/sionna
+
+2. ### ** cuBB (CUDA Baseband) **
+Purpose: NVIDIA’s GPU-accelerated 5G NR baseband library.
+Features:
+Supports massive MIMO and high-throughput processing.
+Optimized PHY-layer signal processing using CUDA.
+Integrates with ORAN-based RAN architectures.
+Status: Not fully open-source yet, but NVIDIA has provided related tools in its SDKs.
+
+3. ### ** Aerial SDK (NVIDIA) **
+Purpose: GPU-accelerated SDK for 5G RAN PHY layer.
+Features:
+Supports 5G NR L1 acceleration for DU/RU.
+Enables AI-powered beamforming and MIMO processing.
+Integrates with ORAN-based vRAN and AI-driven RIC.
+Status: Some parts are available in NVIDIA's AI RAN projects.
+
+4. ### **cuSignal **
+Purpose: GPU-accelerated signal processing for AI-driven RAN.
+Features:
+Implements SciPy signal processing functions on GPUs.
+Accelerates FFT, filtering, beamforming, and MIMO processing.
+GitHub: github.com/rapidsai/cusignal
+
+5. ### ** NeMo (NVIDIA) **
+Purpose: AI-driven language modeling for RAN automation and network optimization.
+Features:
+Conversational AI for network control (AI-based RIC).
+Can be used for 5G/6G data analytics and predictive optimization.
+GitHub: github.com/NVIDIA/NeMo
+
+6. ### ** NVIDIA Triton Inference Server **
+Purpose: AI inference platform for RAN AI workloads.
+Features:
+Supports AI-driven network optimization in vRAN.
+Enables low-latency, real-time AI processing in 5G/6G RIC.
+GitHub: github.com/triton-inference-server/server
+
+7. ### ** Isaac Sim (for 5G Digital Twins) **
+Purpose: AI-based 5G/6G network simulation using digital twins.
+Features:
+Integrates Blender + Omniverse for RAN environment simulation.
+Helps model propagation, interference, and ML-based beamforming.
+GitHub: Available through NVIDIA Omniverse.
+
+8. ### ** NVIDIA Modulus **
+Purpose: AI-driven physics-based 5G/6G simulations.
+Features:
+Enables ML-based channel modeling.
+Can be used for AI-powered RF propagation predictions.
+GitHub: github.com/NVIDIA/modulus
+
+9. ### ** RAPIDS AI **
+Purpose: GPU-accelerated big data analytics for RAN telemetry.
+Features:
+Supports network anomaly detection using AI.
+Accelerates real-time RIC analytics using Dask, CuDF, and XGBoost.
+GitHub: github.com/rapidsai
+
+10. ### ** NVIDIA Morpheus **
+Purpose: AI-based cybersecurity for 5G/6G RAN.
+Features:
+Uses AI for RAN security anomaly detection.
+Works with network traffic monitoring in Open RAN.
+GitHub: github.com/NVIDIA/morpheus
+
+### ** Conclusion **
+If you're working on AI-driven 5G/6G RAN, the top open-source NVIDIA frameworks to explore are:
+Sionna (for PHY-layer AI and link-level simulations)
+cuSignal (for GPU-accelerated signal processing)
+NeMo (for AI-driven RAN control)
+Triton Inference Server (for real-time AI in RAN)
+Modulus (for AI-powered RF propagation)
+RAPIDS AI (for big data-driven RAN analytics)
+Would you like help setting up any of these frameworks for your 5G RAN digital simulations? :rocket:
+
+
+
+
+
+
 
 
 
